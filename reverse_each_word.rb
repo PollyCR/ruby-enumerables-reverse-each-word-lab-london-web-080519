@@ -1,9 +1,9 @@
 def reverse_each_word(sentence)
  sentence = sentence.split
-
+new_sentence = []
 sentence.each do |word|
-sentence << word.reverse
+new_sentence << word.reverse
  
- return sentence.join
+ return new_sentence.join
 end 
 end 
