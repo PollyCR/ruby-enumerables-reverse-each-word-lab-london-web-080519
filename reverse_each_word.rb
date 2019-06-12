@@ -4,6 +4,6 @@ new_sentence = []
 sentence.each do |word|
 new_sentence << word.reverse
  
- return new_sentence.join
+ return new_sentence
 end 
 end 
