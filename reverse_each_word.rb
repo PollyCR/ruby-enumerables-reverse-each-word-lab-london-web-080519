@@ -1,4 +1,4 @@
-def reverse_each_word(sentence)
+def reverse_each_word_with_each(sentence)
  original = sentence.split(" ")
   reversed = []
   original.collect do|sentence|
