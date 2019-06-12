@@ -1,4 +1,4 @@
-def reverse_each_word_with_collect(sentence)
+def reverse_each_word(sentence)
  original = sentence.split(" ")
   reversed = []
   original.collect do|sentence|
@@ -6,3 +6,6 @@ def reverse_each_word_with_collect(sentence)
   end
   reversed.join(" ")
 end 
+
+def reverse_each_word_with_collect(sentence)
+  
